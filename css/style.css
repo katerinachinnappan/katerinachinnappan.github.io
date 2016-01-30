@@ -708,7 +708,13 @@ i.glyphicon.glyphicon-comment {
 }
 .services-top h2 {
   font-size: 3em;
-  color:#d3bda5;
+  color:#BDA5D3;
+  margin-bottom: 0.2em;
+   font-family: 'Squada One', cursive;
+}
+.services-top a {
+  font-size: 3em;
+  color:#BDA5D3;
   margin-bottom: 0.2em;
    font-family: 'Squada One', cursive;
 }
