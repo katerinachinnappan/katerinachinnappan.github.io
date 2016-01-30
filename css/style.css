@@ -130,12 +130,12 @@ span.menu {
 }
 .banner {
   background: url(../images/1.jpg)no-repeat;
-  min-height: 865px;
+  min-height: 895px;
   background-size: cover;
 }
 .banner-two {
   background: url(../images/1.jpg)no-repeat;
-  min-height:160px;
+  min-height:260px;
   background-size: cover;
 }
 .banner-bottom {
