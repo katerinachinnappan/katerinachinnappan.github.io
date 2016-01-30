@@ -336,7 +336,7 @@ span.glyphicon.glyphicon-wrench.miss-wedo-icon{
 /*--mission end here--*/
 /*--footer start here--*/
 .footer {
-  background: #000;
+  background: #FFFFFF;
   padding: 4em 0em 4em 0em;
 }
 .ftr-gd h3 {
@@ -425,7 +425,7 @@ span.glyphicon.glyphicon-wrench.miss-wedo-icon{
 }
 .copyright p {
   font-size: 1em;
-  color: #fff;
+  color: #000000;
 }
 .copyright p a {
   color:#d3bda5;
