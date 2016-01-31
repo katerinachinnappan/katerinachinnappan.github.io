@@ -855,7 +855,12 @@ span.glyphicon.glyphicon-tree-deciduous {
 .gallery-top {
   text-align: center;
   padding: 0em 0em 4em 0em;
-  margin-top: -69px;
+  
+}
+.gallery-top1 {
+  text-align: center;
+  padding: 0em 0em 4em 0em;
+  margin-top: -76px;
 }
 .gallery-top h3 {
   font-size: 3em;
