@@ -264,6 +264,10 @@ span.menu {
 	color: #d3bda5;
 }
 /*--plan end here--*/
+/*--code format start here--*/
+code { 
+    font-family: courier new;
+}
 /*--mission start here--*/
 .mission-top {
   padding: 0em 0em 2em 0em;
