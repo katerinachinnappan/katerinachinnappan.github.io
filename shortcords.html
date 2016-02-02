@@ -80,6 +80,74 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="grid_3 grid_4">
 			<div class="page-header">
 				<center><code>Sample Codes</code></center>
+				<br>
+				<center><code> SELECT A.MGR, MIN (A.SAL)
+  FROM EMP A, EMP B
+  WHERE A.MGR = B.EMPNO
+  GROUP BY A.MGR
+  ORDER BY 2 DESC;
+
+ SELECT D.DNAME AS DNAME, D.LOC AS LOC, COUNT (E.DEPTNO) AS 
+"Number of People", ROUND (AVG(E.SAL), 2) AS "Salary"
+  FROM DEPT D, EMP E
+  WHERE D.DEPTNO = E.DEPTNO
+  GROUP BY D.DNAME, D.LOC, E.DEPTNO;
+
+ SELECT X.*,
+  SG.GRADE AS "SAL GRADE"
+  FROM
+  (
+  SELECT D.DNAME AS "DEPT",
+  MIN(NVL(E.SAL,0)) AS "MIN SAL",
+  AVG(NVL(E.COMM,0)) AS "AVERAGE COMM"
+  FROM DEPT D
+  LEFT JOIN EMP E
+ ON D.DEPTNO = E.DEPTNO
+ GROUP BY D.DNAME, D.DEPTNO
+ ) X
+ JOIN SALGRADE SG
+ ON "MIN SAL" BETWEEN SG.LOSAL AND SG.HISAL;
+
+ a) //I want to know how many employees earn more than 1k
+ SELECT COUNT(*) AS "VALUE"
+   FROM EMP
+   WHERE SAL > 1000;
+
+     VALUE
+----------
+        12
+
+ b) //I want to know ALL the employees who make less than 2k.
+ SELECT COUNT (ENAME) AS "EMPLOYEE"
+    FROM EMP
+    WHERE SAL < 2000;
+
+  EMPLOYEE
+----------
+         8
+
+ c)//I want to know in how many departments at least 1 employee makes over 2500.
+SELECT COUNT (DISTINCT DEPTNO) AS "DEPARTMENT"
+   FROM EMP
+   WHERE SAL > 2500;
+
+DEPARTMENT
+----------
+         3
+
+ d)//I want to know how many TOTAL are there employees.
+ SELECT COUNT(ALL(ENAME)) AS "ALL EMPLOYEES"
+   FROM EMP;
+
+ALL EMPLOYEES
+-------------
+           14
+
+ SELECT EMPNO, ENAME, SAL, ROUND(SAL * 1.15, 0) "NEW SALARY"
+  FROM EMP;
+
+
+</code></center>
       <center><p >Click on the github icon to view my codes</p></center>
       <br><br>
        	<center><a href="https://github.com/katerinachinnappan/codes" target="_blank"><img src="images/github1.png" alt="" class="img-responsive"></a></center>
