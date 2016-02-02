@@ -85,7 +85,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   FROM EMP A, EMP B<br>
   WHERE A.MGR = B.EMPNO<br>
   GROUP BY A.MGR<br>
-  ORDER BY 2 DESC; </code></center>
+  ORDER BY 2 DESC;<br><br> </code>
+  
+  <code> SELECT D.DNAME AS DNAME, D.LOC AS LOC, COUNT (E.DEPTNO) AS <br>
+"Number of People", ROUND (AVG(E.SAL), 2) AS "Salary"<br>
+  FROM DEPT D, EMP E<br>
+  WHERE D.DEPTNO = E.DEPTNO<br>
+  GROUP BY D.DNAME, D.LOC, E.DEPTNO; <br><br></code>
+  
+  <code> SELECT X.*,<br>
+  SG.GRADE AS "SAL GRADE"<br>
+  FROM<br>
+  (<br>
+  SELECT D.DNAME AS "DEPT",<br>
+  MIN(NVL(E.SAL,0)) AS "MIN SAL",<br>
+  AVG(NVL(E.COMM,0)) AS "AVERAGE COMM"<br>
+  FROM DEPT D<br>
+  LEFT JOIN EMP E<br>
+ ON D.DEPTNO = E.DEPTNO<br>
+ GROUP BY D.DNAME, D.DEPTNO<br>
+ ) X<br>
+ JOIN SALGRADE SG<br>
+ ON "MIN SAL" BETWEEN SG.LOSAL AND SG.HISAL;<br><br></code></center>
       <center><p >Click on the github icon to view my codes</p></center>
       <br><br>
        	<center><a href="https://github.com/katerinachinnappan/codes" target="_blank"><img src="images/github1.png" alt="" class="img-responsive"></a></center>
