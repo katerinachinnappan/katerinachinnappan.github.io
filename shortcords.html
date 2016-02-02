@@ -80,34 +80,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--button-->
 		<div class="grid_3 grid_4">
 			<div class="page-header">
-				<center><code>Sample SQL Code</code></center>
+				<center><p>To be displayed...</p></center>
 				<br>
-				<center><code>SELECT A.MGR, MIN (A.SAL)<br>
-  FROM EMP A, EMP B<br>
-  WHERE A.MGR = B.EMPNO<br>
-  GROUP BY A.MGR<br>
-  ORDER BY 2 DESC;<br><br> </code>
-  
-  <code> SELECT D.DNAME AS DNAME, D.LOC AS LOC, COUNT (E.DEPTNO) AS <br>
-"Number of People", ROUND (AVG(E.SAL), 2) AS "Salary"<br>
-  FROM DEPT D, EMP E<br>
-  WHERE D.DEPTNO = E.DEPTNO<br>
-  GROUP BY D.DNAME, D.LOC, E.DEPTNO; <br><br></code>
-  
-  <code> SELECT X.*,<br>
-  SG.GRADE AS "SAL GRADE"<br>
-  FROM<br>
-  (<br>
-  SELECT D.DNAME AS "DEPT",<br>
-  MIN(NVL(E.SAL,0)) AS "MIN SAL",<br>
-  AVG(NVL(E.COMM,0)) AS "AVERAGE COMM"<br>
-  FROM DEPT D<br>
-  LEFT JOIN EMP E<br>
- ON D.DEPTNO = E.DEPTNO<br>
- GROUP BY D.DNAME, D.DEPTNO<br>
- ) X<br>
- JOIN SALGRADE SG<br>
- ON "MIN SAL" BETWEEN SG.LOSAL AND SG.HISAL;</code></center>
+				
     
       
        	
