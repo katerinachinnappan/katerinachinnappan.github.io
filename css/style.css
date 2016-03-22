@@ -155,7 +155,7 @@ span.menu {
   font-size: 2.3em;
   font-weight: 400;
   color:#BDA5D3;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
   border-top: 4px double #fff;
   border-bottom: 4px double #fff;
   padding: 0.3em 0em;
@@ -191,7 +191,7 @@ span.menu {
   font-size: 3em;
   color:#d3bda5;
   margin: 0em 0em 0.2em 0em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .bann-info-main p {
   font-size: 1em;
@@ -215,7 +215,7 @@ span.menu {
   font-size: 2.5em;
   color:#d3bda5;
   margin: 0em 0em 0.3em 0em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .banner-strip-main p {
   font-size: 1.1em;
@@ -235,7 +235,7 @@ span.menu {
 }
 .plan-top h3 {
   font-size: 2.5em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
   color: #d3bda5;
   margin: 0em 0em 0.2em 0em;
 }
@@ -254,7 +254,7 @@ span.menu {
   font-size: 1.3em;
   margin: 1em 0em 0.5em 0em;
   color: #000;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .plan-bot-text h4 a{
    color: #000;
@@ -275,19 +275,19 @@ code {
 .mission-top h3{
   font-size: 1.6em;
   color: #d3bda5;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .mission-top p {
   font-size: 1.15em;
   color: #000;
   margin: 0.4em 0em 0em 0em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .miss-text h4 {
   font-size: 1.5em;
   color: #000;
   margin: 0em 0em 0.5em 0em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .miss-text h4 a{
 	color: #000;
@@ -347,7 +347,7 @@ span.glyphicon.glyphicon-wrench.miss-wedo-icon{
   font-size: 2.2em;
   color: #fff;
   margin: 0em 0em 0.5em 0em;
-    font-family: 'Squada One', cursive;
+    font-family: 'Yu Gothic UI Light';
 }
 .ftr-gd ul {
   padding: 0em;
@@ -464,7 +464,7 @@ span.glyphicon.glyphicon-wrench.miss-wedo-icon{
 .single-grid h2{
 	margin:0 0 0.3em;
 	font-size:2em;
-	 font-family: 'Squada One', cursive;
+	 font-family: 'Yu Gothic UI Light';
 	color:#d3bda5;
 }
 .single-grid p{
@@ -477,7 +477,7 @@ span.glyphicon.glyphicon-wrench.miss-wedo-icon{
 	font-size: 2em;
 	color:#d3bda5;
 	  margin: 0em;
-	 font-family: 'Squada One', cursive;
+	 font-family: 'Yu Gothic UI Light';
 }
 .single-left {
 	padding: 2em 0 0;
@@ -498,20 +498,20 @@ span.glyphicon.glyphicon-wrench.miss-wedo-icon{
 	color:#7C7C7C;
 	font-size:1em;
 	margin-right: 1em;
-	 font-family: 'Squada One', cursive;
+	 font-family: 'Yu Gothic UI Light';
 }
 .cal ul li a{
 	color:#7C7C7C;
 	text-decoration:none;
 	font-size:1em;
-	 font-family: 'Squada One', cursive;
+	 font-family: 'Yu Gothic UI Light';
 }
 .post-top h6 {
   font-size: 1.5em;
   color: #000;
   padding: 0.3em 0em 0.1em 0em;
   margin: 0em;
-   font-family: 'Squada One', cursive;
+   font-family: 'Yu Gothic UI Light';
 }
 .post-top p{
 	font-size: 1em;
@@ -523,7 +523,7 @@ span.glyphicon.glyphicon-wrench.miss-wedo-icon{
 	font-size: 1.7em;
 	padding: 0em 0 0.5em;
 	  margin: 0em;
-   font-family: 'Squada One', cursive;
+   font-family: 'Yu Gothic UI Light';
 }
 .grid-categories {
   padding: 0 0 1em;
@@ -549,7 +549,7 @@ ul.popular li a:hover{
   font-size: 2em;
   color:#d3bda5;
     margin: 0em;
- font-family: 'Squada One', cursive;
+ font-family: 'Yu Gothic UI Light';
 }
 .single-bottom input[type="text"], .single-bottom textarea {
  font-size: 1.1em;
@@ -616,7 +616,7 @@ i.glyphicon.glyphicon-comment {
   font-size: 3em;
   color:#BDA5D3;
   margin-bottom: 0.2em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .about-top p {
   font-size: 1em;
@@ -630,7 +630,7 @@ i.glyphicon.glyphicon-comment {
   color: #BDA5D3;
   margin: 0em 0em 0.4em 0em;
   line-height: 1.4em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .ab-left h4 a{
   color: #000;
@@ -649,14 +649,14 @@ i.glyphicon.glyphicon-comment {
   color: #d3bda5;
   margin-bottom: 1.5em;
   text-align: center;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .we-do-top h3 {
   font-size: 2.8em;
   color: #d3bda5;
   margin-bottom: 0.2em;
   text-align: center;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .staff-grid {
   text-align: center;
@@ -665,7 +665,7 @@ i.glyphicon.glyphicon-comment {
   font-size: 1.2em;
   color: #000;
   margin: 0.5em 0em 0.2em 0em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .staff-grid p {
   font-size: 1em;
@@ -714,7 +714,7 @@ i.glyphicon.glyphicon-comment {
   font-size: 3em;
   color:#BDA5D3;
   margin-bottom: 0.2em;
-   font-family: 'Squada One', cursive;
+   font-family: 'Yu Gothic UI Light';
 }
 .services-top a {
   
@@ -752,7 +752,7 @@ i.glyphicon.glyphicon-comment {
   color: #d3bda5;
   text-align: center;
   margin-bottom: 1.5em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .cord-drop span.numbers {
   background: #d3bda5;
@@ -771,7 +771,7 @@ i.glyphicon.glyphicon-comment {
 .over-ve-text h4 {
   font-size: 1.3em;
   margin: 0em 0em 0.5em 0em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .over-ve-text h4 a {
   color: #000;
@@ -829,13 +829,13 @@ span.glyphicon.glyphicon-tree-deciduous {
   font-weight: 300;
   color: #000;
   margin: 0px 0px 30px 13px;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .other-serv-grid h4 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0.5em 0em 0.5em 0em;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .other-serv-grid h4 a{
 	color: #d3bda5;
@@ -871,7 +871,7 @@ span.glyphicon.glyphicon-tree-deciduous {
   font-size: 3em;
   margin-bottom: 0.2em;
     color: #BDA5D3;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 .gallery-top p {
   font-size: 1em;
@@ -925,7 +925,7 @@ h3.typo1 {
   text-align: center;
   font-size: 3em;
   color:#BDA5D3;
-  font-family: 'Squada One', cursive;
+  font-family: 'Yu Gothic UI Light';
 }
 /*--//typo--*/
 /*--contact--*/
@@ -935,7 +935,7 @@ h3.typo1 {
 }
 .contact-md h3{
 	 font-size:3em;
-    font-family: 'Squada One', cursive;
+    font-family: 'Yu Gothic UI Light';
    color: #BDA5D3;
 }
 .contact-md p {
@@ -950,7 +950,7 @@ h3.typo1 {
 	color: #000;
 	padding:0 0 1em;
 	margin: 0em;
-	font-family: 'Squada One', cursive;
+	font-family: 'Yu Gothic UI Light';
 }
 .contact-top div{
 	padding:0.5em 0;
