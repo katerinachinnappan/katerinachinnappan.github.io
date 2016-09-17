@@ -134,12 +134,34 @@ span.menu {
   background-size: cover;
 }
 .banner-two {
- background-color:#b3ffb3;
-  min-height:160px;
-  background-size: cover;
-  position: fixed;
-  opacity: 0.41;
+ position:fixed;
+
+
+opacity: 0.41;
     filter: alpha(opacity=10);
+top:0px;
+left:0px;
+width:100%;
+
+
+height:150px;
+
+
+background-color:#ffddcc;
+background-image:urL('http://assets.tumblr.com/images/x.gif?v=1');
+
+box-shadow:0px -1px 7px gray;
+
+
+text-align:center;
+
+z-index:9;
+overflow:hidden;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+  
 }
 .banner-bottom {
   margin: 12em auto 0em;
