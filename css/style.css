@@ -134,9 +134,12 @@ span.menu {
   background-size: cover;
 }
 .banner-two {
- background-color:#D8BFD8;
+ background-color:#b3ffb3;
   min-height:160px;
   background-size: cover;
+  position: fixed;
+  opacity: 0.41;
+    filter: alpha(opacity=10);
 }
 .banner-bottom {
   margin: 12em auto 0em;
