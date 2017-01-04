@@ -130,6 +130,8 @@ span.menu {
 }
 .overall{
 	background: url(../images/gp26.jpg)no-repeat;
+	 min-height: 795px;
+  background-size: cover;
 
 }
 .banner {
