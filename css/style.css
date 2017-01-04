@@ -642,6 +642,7 @@ i.glyphicon.glyphicon-comment {
   color:#BDA5D3;
   margin-bottom: 0.2em;
   font-family: 'Yu Gothic UI Light';
+	background: url(../images/gp26.jpg)no-repeat;
 }
 .about-top p {
   font-size: 1em;
