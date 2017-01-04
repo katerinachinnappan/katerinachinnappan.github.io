@@ -128,6 +128,10 @@ span.menu {
 	color:#000;
 	
 }
+.resume:hover{
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
 .overall{
 	background: url(../images/gp26.jpg)no-repeat;
 	 min-height: 795px;
