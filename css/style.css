@@ -128,6 +128,11 @@ span.menu {
 	color:#000;
 	
 }
+.overall{
+	background: url(../images/gp26.jpg)no-repeat;
+  min-height: 795px;
+  background-size: cover;
+}
 .banner {
   background: url(../images/gp26.jpg)no-repeat;
   min-height: 795px;
