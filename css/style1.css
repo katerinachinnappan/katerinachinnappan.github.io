@@ -17,6 +17,7 @@ Google Fonts
 	z-index: 9999;
 	opacity: 0.81;
         filter: alpha(opacity=10);
+	box-shadow:0px -1px 7px gray;
 }
 .whole{
 	margin-top:240px;
