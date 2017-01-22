@@ -1,6 +1,9 @@
 <!doctype html>
 <html >
 	<head>
+		<meta charset="utf-8"> 
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Spotlight</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 		<link rel ="stylesheet" href ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">		
@@ -8,44 +11,44 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans|Josefin+Slab|Lato:300|Play|Varela+Round|Yellowtail" rel="stylesheet">
-
-		
-		
-		<script src="../js/script.js"></script>
-		<link rel = "stylesheet" href = "../css/style1.css" >
 		
 		<!--
-		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }} ">
-		<script type="text/javascript"  src="{{ url_for('static', filename='script.js') }}"></script>
+		<script src="../static/script.js"></script>
+		<link rel = "stylesheet" href = "../static/main.css" >
 		-->
+		
+		
+		<link rel="stylesheet" type="text/css" href="/style1.css ">
+		<script type="text/javascript"  src="/js/script.js"></script>
+		
 	</head>
 
 	<body ng-app = "mainApp">
 		<div ng-controller = "appController">
-			<div class = "container">
-				<center>
+			<div class = "container-fluid">
 				<div class="row currentSong">
-					<img class="col-sm-3 col-xs-8 col-xs-offset-2 col-sm-offset-0" ng-src = "{a curSong.Art a}" />
-					<div class = "col-sm-3 col-xs-12">
+					<img class="col-sm-3 col-xs-8 col-xs-offset-2 col-sm-offset-0 " ng-src = "{a curSong.Art a}" />
+					<div class = "col-sm-3 col-xs-12 ">
 						<div class = "CurName">{a curSong.Name a}</div>
 						<div class = "CurArtist">{a curSong.Artist a}</div>
 						<div class = "CurAlbum">{a curSong.Album a}</div>
 					</div> 
-					<div class = "col-sm-2 col-xs-6">
-						<p>Player time</p>
+					<div class = "col-sm-3 col-xs-10 ">
+						<p>Calvin time</p>
+						
 					</div>
-				</div>
-				</center>
-
-				<div class="whole">
-				<div class="songList">
+					<div class = "col-sm-3 col-xs-2 morecont">
+						<i style = "cursor:pointer" class = "glyphicon glyphicon-menu-hamburger more" data-toggle="collapse" href="#collapse"></i>
+					</div>
+				</div>				
+				<div class = "whole">
+				<div id="collapse" class="songList pannel-collapse collapse in">
 					<ul class = "list-group">
 						<li class="list-group-item listRow" ng-repeat = "item in list1 | orderBy:'-Vote'">
 							<div class="row">				
-
-								<img class = " col-sm-2 col-xs-2 listImage" ng-src="{aitem.Arta}"/>								
+								<img class = " col-sm-2 col-xs-2 listImage" ng-src="{aitem.Arta}"/>				
 								<div class = "col-sm-8 col-xs-5 ">
-									<div class= "SongName">
+									<div class="SongName">
 										{a item.Name a}
 									</div>
 									<div class= "SongArtist">
@@ -53,10 +56,9 @@
 									</div>
 									<div class ="SongAlbum">
 										{a item.Album a}
-									</div>
-									
+									</div>									
 								</div>
-								<div class = "col-sm-2 col-xs-4 color2">
+	 							<div class = "col-sm-2 col-xs-4 color2">
 
 									<i style = "cursor:pointer" ng-click= "item.Vote = item.Vote + 1" class="glyphicon glyphicon-chevron-up icon">
 									</i>
@@ -71,10 +73,8 @@
 						</li>
 					</ul>
 				</div>
-				
-				
+				</div>				
 			</div>
-		</div>	
-		</div>
+		</div>		
 	</body>
 </html>
