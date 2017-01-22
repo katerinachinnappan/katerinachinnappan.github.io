@@ -15,8 +15,8 @@ Google Fonts
 	border-radius: 10px;
 	position:fixed;
 	z-index: 9999;
-	opacity: 0.81;
-        filter: alpha(opacity=10);
+	/*opacity: 0.81;
+        filter: alpha(opacity=10);*/
 	box-shadow:0px -1px 7px gray;
 	margin-right:90px;
 	color:white;
