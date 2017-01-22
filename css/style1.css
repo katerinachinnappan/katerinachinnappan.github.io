@@ -13,7 +13,7 @@ Google Fonts
 	background-color: grey;
 	padding: 10px;
 	border-radius: 10px;
-	background-attachment:fixed;
+	position:fixed;
 }
 
 .songList li{
