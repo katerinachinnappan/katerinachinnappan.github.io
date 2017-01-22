@@ -15,10 +15,12 @@ Google Fonts
 	border-radius: 10px;
 	position:fixed;
 }
+.whole{
+	margin-top:140px;
+}
 
 .songList li{
 	border-radius: 10px;
-	margin-top:65px;
 
 }
 .vote{
