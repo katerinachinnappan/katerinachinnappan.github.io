@@ -23,7 +23,7 @@ html, body {
 	position:fixed;
 	z-index: 9999;
 	opacity: 1;
-	background-color: orange;
+	background-color: #1D2020;
 }
 
 .songList li{
