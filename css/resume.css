@@ -176,17 +176,20 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background: -moz-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* ff3.6+ */
-background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(156,232,255,1)), color-stop(100%, rgba(0,128,128,1))) !important; /* safari4+,chrome */
+background: rgb(195,226,252);
+background: linear-gradient(0deg, rgba(195,226,252,1) 0%, rgba(242,206,225,1) 47%, rgba(247,173,247,1) 100%);
+/*/*background-image: url("../img/dirty_fog.jpg");*/
+/*background: -moz-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* ff3.6+ */*/
+/*background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(156,232,255,1)), color-stop(100%, rgba(0,128,128,1))) !important; /* safari4+,chrome */*/*/
 background: -webkit-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* opera 11.10+ */
-background: -ms-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* ie10+ */
-background: linear-gradient(37deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#9CE8FF',GradientType=0 ) !important; /* ie6-9 */
+/*background: -o-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* opera 11.10+ */*/
+/*background: -ms-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* ie10+ */*/
+/*background: linear-gradient(37deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* w3c */*/
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#9CE8FF',GradientType=0 ) !important;*/*/
 }
 
 .text-primary {
-  color: #3c9eb0 !important;
+  color: #f8b6fa !important;
 }
 
 a {
