@@ -106,7 +106,7 @@ p.lead {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 19rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -176,8 +176,10 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-background: rgb(195,226,252);
-background: linear-gradient(0deg, rgba(195,226,252,1) 0%, rgba(242,206,225,1) 47%, rgba(247,173,247,1) 100%);
+background: rgb(251,212,194);
+background: linear-gradient(90deg, rgba(251,212,194,1) 0%, rgba(208,196,184,1) 100%);
+/*background: #87CEEB;*/
+/*background: linear-gradient(0deg, rgba(195,226,252,1) 0%, rgba(242,206,225,1) 47%, rgba(247,173,247,1) 100%);*/
 /*/*background-image: url("../img/dirty_fog.jpg");*/
 /*background: -moz-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,128,1) 100%) !important; /* ff3.6+ */*/
 /*background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(156,232,255,1)), color-stop(100%, rgba(0,128,128,1))) !important; /* safari4+,chrome */*/*/
@@ -189,7 +191,7 @@ background: -webkit-linear-gradient(53deg, rgba(156,232,255,1) 0%, rgba(0,128,12
 }
 
 .text-primary {
-  color: #f8b6fa !important;
+  color: black !important;
 }
 
 a {
